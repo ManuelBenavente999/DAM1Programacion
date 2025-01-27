@@ -7,10 +7,7 @@ package com.mycompany.trimestre2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- *
- * @author manuel.benavente
- */
+/*@author manuel.benavente*/
 public class EjercicioArrayList1 {
     public static void main(String[] args) {
        ArrayList<Integer> numeros = new ArrayList<>(3);
@@ -30,7 +27,6 @@ public class EjercicioArrayList1 {
                 int opcion = scanner.nextInt();
                 switch (opcion) {
                     case 1:
-                        
                         System.out.println("Escribe un numero ");
                         int numeroAñadir = scanner.nextInt();
                         numeros.add(numeroAñadir);
@@ -53,7 +49,6 @@ public class EjercicioArrayList1 {
                                 System.out.println("El numero " + numeroBuscar + " no se encuentra en el ArrayList.");
                             }
                         break;
-                        
                     case 4:
                         System.out.println(numeros);
                         /*
